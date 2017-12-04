@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2009
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mikolaitis.Api.Authorization", "Mikolaitis.Api.Authorization\Mikolaitis.Api.Authorization.csproj", "{FA5CA1E1-15E4-44BB-9B0F-32BF7899ADB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mikolaitis.Api.Authorization.Tests", "Mikolaitis.Api.Authorization.Tests\Mikolaitis.Api.Authorization.Tests.csproj", "{F59699D9-849A-4EFF-8504-36CD7806AD87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mikolaitis.Api.Core", "Mikolaitis.Api.Core\Mikolaitis.Api.Core.csproj", "{C313F571-D026-4529-95A3-C69A11633D58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mikolaitis.Api.Database", "Mikolaitis.Api.Database\Mikolaitis.Api.Database.csproj", "{C16A5CF2-B5FF-4F6B-94E9-DD13D5E04CA4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mikolaitis.Api.Users", "Mikolaitis.Api.Users\Mikolaitis.Api.Users.csproj", "{DA2AFAAD-8E59-41CA-98DB-A232299E11C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mikolaitis.Api.Core.Tests", "Mikolaitis.Api.Core.Tests\Mikolaitis.Api.Core.Tests.csproj", "{48C1F186-5A3D-438F-A478-8808492F6650}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FC1E68A8-A50F-4A37-8DED-BA41981C3268}"
+	ProjectSection(SolutionItems) = preProject
+		MyRequests.PostmanCollection.json = MyRequests.PostmanCollection.json
+		ReadMe.md = ReadMe.md
+		Task.md = Task.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA5CA1E1-15E4-44BB-9B0F-32BF7899ADB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA5CA1E1-15E4-44BB-9B0F-32BF7899ADB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA5CA1E1-15E4-44BB-9B0F-32BF7899ADB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA5CA1E1-15E4-44BB-9B0F-32BF7899ADB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F59699D9-849A-4EFF-8504-36CD7806AD87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F59699D9-849A-4EFF-8504-36CD7806AD87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F59699D9-849A-4EFF-8504-36CD7806AD87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F59699D9-849A-4EFF-8504-36CD7806AD87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C313F571-D026-4529-95A3-C69A11633D58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C313F571-D026-4529-95A3-C69A11633D58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C313F571-D026-4529-95A3-C69A11633D58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C313F571-D026-4529-95A3-C69A11633D58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C16A5CF2-B5FF-4F6B-94E9-DD13D5E04CA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C16A5CF2-B5FF-4F6B-94E9-DD13D5E04CA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C16A5CF2-B5FF-4F6B-94E9-DD13D5E04CA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C16A5CF2-B5FF-4F6B-94E9-DD13D5E04CA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA2AFAAD-8E59-41CA-98DB-A232299E11C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA2AFAAD-8E59-41CA-98DB-A232299E11C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA2AFAAD-8E59-41CA-98DB-A232299E11C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA2AFAAD-8E59-41CA-98DB-A232299E11C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48C1F186-5A3D-438F-A478-8808492F6650}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48C1F186-5A3D-438F-A478-8808492F6650}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48C1F186-5A3D-438F-A478-8808492F6650}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48C1F186-5A3D-438F-A478-8808492F6650}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {64C899BD-F45B-4DC8-A2CB-E7C1FEE865C3}
+	EndGlobalSection
+EndGlobal

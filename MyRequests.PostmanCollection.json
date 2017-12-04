@@ -1,0 +1,122 @@
+﻿{
+  "variables": [],
+  "info": {
+    "name": "My requests",
+    "_postman_id": "61cac07b-f7f5-94b0-c67e-62cdb2f52058",
+    "description": "",
+    "schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "http://localhost:56983/Users?$orderby=UserName",
+      "request": {
+        "url": {
+          "raw": "http://localhost:56983/Users?$orderby=UserName&$skip=20",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "56983",
+          "path": [
+            "Users"
+          ],
+          "query": [
+            {
+              "key": "$orderby",
+              "value": "UserName",
+              "equals": true,
+              "description": ""
+            },
+            {
+              "key": "$skip",
+              "value": "20",
+              "equals": true,
+              "description": ""
+            }
+          ],
+          "variable": []
+        },
+        "method": "GET",
+        "header": [
+          {
+            "key": "Authorization",
+            "value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYW1laWQiOiI0YWM4ZjM4MS04MjY5LTQ5NWItYTQ4Yi01YmUyMDEwNGIwNmMiLCJ1bmlxdWVfbmFtZSI6ItCc0LDRgNC40Y8iLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL2FjY2Vzc2NvbnRyb2xzZXJ2aWNlLzIwMTAvMDcvY2xhaW1zL2lkZW50aXR5cHJvdmlkZXIiOiJBU1AuTkVUIElkZW50aXR5IiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdC8iLCJhdWQiOiJBbnkiLCJleHAiOjE1MTI0MTU3NTksIm5iZiI6MTUxMjQxMzk1OX0.vP9ssmm0BHyMeUICdl5wVMct-ihvuBNsqCZmGmbq0s0",
+            "description": ""
+          }
+        ],
+        "body": {},
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "http://localhost:56774/token",
+      "request": {
+        "url": "http://localhost:56774/token",
+        "method": "POST",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Accept-Language",
+            "value": "en-us",
+            "description": ""
+          },
+          {
+            "key": "Audience",
+            "value": "Any",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "urlencoded",
+          "urlencoded": [
+            {
+              "key": "grant_type",
+              "value": "password",
+              "description": "",
+              "type": "text"
+            },
+            {
+              "key": "password",
+              "value": "aA12345",
+              "description": "",
+              "type": "text"
+            },
+            {
+              "key": "username",
+              "value": "maria@apple.com",
+              "description": "",
+              "type": "text"
+            }
+          ]
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "http://localhost:56774/api/account/register",
+      "request": {
+        "url": "http://localhost:56774/api/account/registeruser",
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"Name\":\"Тим Кук\",\"Password\":\"aa11aaA\",\"ConfirmPassword\":\"aa11aaA\",\"Email\":\"ti23@apple.com\"}"
+        },
+        "description": ""
+      },
+      "response": []
+    }
+  ]
+}
